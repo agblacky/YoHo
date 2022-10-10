@@ -1,15 +1,12 @@
 import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
 import { Head } from "./components/head/head";
+import { App } from "./components/app/app";
 
 export default () => {
   return (
     <>
       <Head />
-      <body>
-        <Logo />
-        <Counter />
-      </body>
+      <App />
     </>
   );
 };
