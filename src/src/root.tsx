@@ -1,13 +1,11 @@
-import { Counter } from './components/counter/counter';
-import { Logo } from './components/logo/logo';
+import { Counter } from "./components/counter/counter";
+import { Logo } from "./components/logo/logo";
+import { Head } from "./components/head/head";
 
 export default () => {
   return (
     <>
-      <head>
-        <meta charSet="utf-8" />
-        <title>Qwik Blank App</title>
-      </head>
+      <Head />
       <body>
         <Logo />
         <Counter />
